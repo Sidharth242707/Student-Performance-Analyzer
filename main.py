@@ -47,10 +47,3 @@ try:
     ])
 except ValueError as e:
     print("Invalid Input Test:", e)
-
-
-# Testing edge case
-print("Edge Case Test:",
-      class_average([{"name": "Test", "marks": 0}]))
-
-print("\nProgram completed successfully!")
